@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>CodeSpace Cat's Portfolio</title>
+    <style>
+     .Catfolio ul li{
+          list-style: none; 
+          font-weight: bold;
+          display: inline-block;
+          padding-left: none;
+     }
+     .Catfolio .Project{
+      margin-left: none;
+      padding-left: 0px;
+     }
+     .Catfolio .Date{
+      margin-left:50px;
+     }
+     .Catfolio .Description{
+      margin-left:95px;
+     }
+     .Catfolio .Thumbnail{
+      margin-left:240px;
+      
+    }
+
+    .images-description {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      gap: 10px;
+    }
+
+    .png1{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .png2{
+      display: flex;
+      align-items: center;
+      gap: 44px;
+    }
+
+    .png3{
+      display: flex;
+      align-items: center;
+      gap: 65px;;
+    }
+
+     
+
+  
+
+    </style>
+  </head>
+
+  <body>
+    <Header>
+      <!-- tiny paint image to place next to the h1 element were not provided.-->
+      <h1>CodeSpace Cat's Portfolio</h1>
+      <nav>
+        <!-- tiny images next to the navbar elements were not provided-->
+        <ul>
+          <li>
+            <a href="#Aboutme">About Me <img src="" alt=""></a>
+          </li>
+          <li>
+            <a href="#skills" >Skill <img src="" alt=""></a> 
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio <img src="" alt=""></a>
+          </li>
+           <li>
+            <a href="#contact">Contact <img src="" alt=""></a>
+          </li>
+        </ul>
+      </nav>
+     </Header>
+    
+    <section>
+      <!-- Tiny image to place next to the first navbar was not provided only the big image-->
+      <h2 id="aboutme">About Me</h2>
+      <img src="./images/cat-codespace.png" alt="">
+      <p>Hello! I'm <strong>CodeSpaceCat.</strong> 
+        I'm purr-ssionate about web development and design. I've been pawing at the web industry for one catnap (that's less than a day in human terms), and I adore crafting pawsitively intuitive, whisker-twiching, and fur-tastic web experiences. Whoa that's a lot of pens.
+      </p>
+    </section>
+
+    <section>
+      <!-- tiny images to place next to the 2nd navbar and skills unorderd list were not provided-->
+      <h2 id="skills">My Skills</h2>
+      <ul>
+        <li>Web Development</li>
+        <li>UI/UX Design</li>
+        <li>Backened Development</li>
+        <li>Database Management</li>
+        <li>SEO Optimization</li>
+        <li>Lying in the Sun</li>
+      </ul>
+    </section>
+  
+    
+
+    <section>
+      <!-- For this I decided to use CSS to put the images next to text neatly in alighnment. -->
+      <h2 id="portfolio">Catfolio</h2>
+
+    <div class="Catfolio">
+      <ul>
+        <li class="Project">Project Name</li>
+        <li class="Date">Date</li>
+        <li class="Description">Description</li>
+        <li class="Thumbnail">Thumbnail</li>  
+      </ul>
+    <div>
+        
+       
+    <div class="images-description">
+      <div class="png1">
+        <p>Perfect Landing Page January 2024 &nbsp;&nbsp;&nbsp;A delightful landing page for a january cat condo
+        </p>
+        <img src="./images/1.png" alt="Perfect Landing Page">
+      </div>
+       
+
+      <div class="png2">
+         <p>Kitty Commerce &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;February 2024 An online store selling the fanciest catnip toys 
+        </p>
+        <img src="./images/2.png" alt="Kitty Commerce">
+      </div>
+
+      <div class="png3">
+        <p>CatChat Social&nbsp;&nbsp;&nbsp;&nbsp; June 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A social media suite for cats to meow and hiss!
+        </p>
+        <img src="./images/3.png" alt="CatSocial">
+      </div>
+    </div>
+    </section>
+
+    <section>
+      <!-- Used CSS to enlarge the message box as on the provided example website-->
+      <h2 id="contact">Contact Me
+      </h2>
+      <Input type="text" placeholder="Hello!">Name:
+      </Input>
+      <Input type="email" placeholder="woohoo@gmail.com">Email:
+      </Input>
+      <Input type="text" placeholder="Let's do this!">Message:
+      </Input>
+      <button>Submit
+      </button>
+    </section>
+
+  </body>
+  <footer>
+    <p>
+      &copy; 2024 Codespace Cat. All rights reserved.
+    </p>
+  </footer>
+  
+</html>
